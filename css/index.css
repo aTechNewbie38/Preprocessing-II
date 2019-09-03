@@ -1,3 +1,78 @@
+@media(max-width: 500px){
+    .container{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+    .links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .home img{
+        width: 100%; 
+    }
+    header{
+        margin: auto;
+    }
+    .content-section{
+        display: flex; 
+        flex-direction: column;
+    }
+    #pic1{
+        width: 100%; 
+        margin: auto; 
+        padding: 0;
+    }
+    #content1{
+        width: 100%; 
+    }
+    .inverse-content{
+        display: flex;  
+    }
+    #pic2{
+        width: 100%; 
+        margin: auto; 
+        padding: 0; 
+    }
+    #content2{
+        width: 100%; 
+    }
+    #destination{
+        width: 100%; 
+    }
+    #destination img{
+        width: 100%; 
+        margin: auto; 
+        margin-bottom: 30px; 
+    }
+    .content-pick{
+        display: flex; 
+        flex-direction: column;
+        margin: auto; 
+    }
+    #fun1{
+        margin: auto; 
+        width: 75%; 
+        margin-bottom: 30px; 
+    }
+    #fun2{
+        width: 75%; 
+        margin: auto; 
+        margin-bottom: 30px; 
+    }
+    #fun3{
+        width: 75%; 
+        margin: auto; 
+        margin-bottom: 30px; 
+    }
+}
 .bluebutton{
     color: white; 
     background: #17a2b8;
@@ -172,7 +247,7 @@ h4{
 p{
     line-height: 1.5;
     font-size: 1.6rem;
-    padding-bottom: 10px;
+    padding-bottom: 0 15px;
 }
 img{
     max-width: 100%;
@@ -185,7 +260,7 @@ img{
 }
 body{
     margin: auto; 
-    width: 100%; 
+    width: 75%; 
 }
 nav{
     display: flex; 
@@ -233,7 +308,7 @@ nav .links a{
 }
 .home .content-section .text-content{
     width: 48%; 
-    padding: right: 1%;
+    padding: right: 5%;
 }
 .home .content-section .img-content{
     width: 48%; 
@@ -269,13 +344,18 @@ nav .links a{
 }
 .home .content-pick .destination{
     width: 30%;
-    margin-bottom: 30px; 
+    margin-bottom: 0 30px; 
 }
-
-.home .btn{
+header{
+    border-bottom: #c0c0c0 2px dashed; 
+    padding-top: 0 15px; 
+    padding-bottom: 15px; 
+}
+.btn{
     color: white; 
     background: #17a2b8;
     text-align: center;
+    width: 50px;
     font-size: 2rem;
     font-weight: 850;
     padding-top: 15px;
@@ -283,10 +363,6 @@ nav .links a{
     -webkit-border-radius: 18px;
     -moz-border-radius: 18px;
     border-radius: 18px;
-    width: 95%;
+    width: 80%;
 }
-.home header{
-    border-bottom: #c0c0c0 2px dashed; 
-    padding-top: 15px; 
-    padding-top: 15px; 
-}
+
