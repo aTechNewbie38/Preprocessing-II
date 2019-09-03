@@ -1,3 +1,19 @@
+.bluebutton{
+    color: white; 
+    background: #17a2b8;
+    text-align: center;
+    font-size: 2rem; 
+    font-weight: 850;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    -webkit-border-radius: 18px; 
+    -moz-border-radius: 18x; 
+    border-radius: 18px; 
+    width: 95%; 
+}
+.dashedline{
+    border-bottom: #c0c0c0 2px dashed; 
+}
 * http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -198,6 +214,11 @@ nav .links a{
     font-weight: bold;
     margin-left: 30px;
 }
+.footer{
+    width: 100%;
+    border-top: 2px dashed silver; 
+    background: #ffebcd;
+}
 .footer p{
     text-align: center; 
     color: #212529;
@@ -242,11 +263,30 @@ nav .links a{
 }
 .home .content-pick{
     padding-top: 30px; 
-    border-top: 2px dashed #c0c0c0;
+    border-top: #c0c0c0 2px dashed;
     display: flex;  
     justify-content: space-between;
 }
 .home .content-pick .destination{
     width: 30%;
     margin-bottom: 30px; 
+}
+
+.home .btn{
+    color: white; 
+    background: #17a2b8;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 850;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    width: 95%;
+}
+.home header{
+    border-bottom: #c0c0c0 2px dashed; 
+    padding-top: 15px; 
+    padding-top: 15px; 
 }
